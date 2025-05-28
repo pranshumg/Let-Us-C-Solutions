@@ -1,0 +1,46 @@
+- **B'day**
+   - ❌ Invalid
+   - Contains ', which is not allowed in identifiers.
+- **int**
+   - ❌ Invalid
+   - Reserved keyword in C.
+- **$hello**
+   - ❌ Invalid
+   - $ is not a valid character in standard C identifiers.
+- **#HASH**
+   - ❌ Invalid
+   - '#' is reserved for preprocessor and not allowed in identifiers.
+- **dot.**
+   - ❌ Invalid
+   - Contains a dot (.), which is not allowed in variable names.
+- **number**
+   - ✅ Valid
+   - Standard variable name, follows all rules.
+- **totalArea**
+   - ✅ Valid
+   - Valid camelCase name.
+- **_main()**
+   - ❌ Invalid
+   - Contains (), which makes it look like a function; parentheses not allowed.
+- **temp_in_Deg**
+   - ✅ Valid
+   - Uses only letters and underscores.
+- **total%**
+   - ❌ Invalid
+   - Contains %, which is not allowed in C variable names.
+- **1st**
+   - ❌ Invalid
+   - Starts with a digit — must start with a letter or underscore.
+- **stack-queue**
+   - ❌ Invalid
+   - Contains -, which is not allowed in identifiers.
+- **variable name**
+   - ❌ Invalid
+   - Contains space — variable names must be continuous.
+- **%name%**
+   - ❌ Invalid
+   - Contains %, which is not allowed in variable names.
+- **salary**
+   - ✅ Valid
+   - Fully valid — starts with letter and uses only letters.
+

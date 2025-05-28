@@ -1,0 +1,27 @@
+- **'3.15'** 
+   - ❌ Invalid.
+   - It is a character constant, not a floating-point constant.
+- **35,500** 
+   - ❌ Invalid
+   - Comma is not allowed in numeric constants.
+- **3.25e2** 
+   - ✅ Valid
+   - Valid float in scientific notation.
+- **2e-3** 
+   - ✅ Valid
+   - Valid float in scientific notation.
+- **'eLearning'** 
+   - ❌ Invalid
+   -  Character constant must have exactly one character.
+- **"show"**
+   - ✅ Valid 
+   -  Valid string literal.
+- **'Quest'** 
+   - ❌ Invalid
+   -  Too many characters in a character constant.
+- **2³** 
+   - ❌ Invalid
+   - ³ is not valid C syntax.
+- **4 6 5 2**
+   - ❌ Invalid
+   - Multiple unseparated constants are not valid in C.
