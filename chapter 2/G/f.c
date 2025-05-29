@@ -13,8 +13,8 @@ int main() {
 	C = E;
 
 	printf("After interchanging,\n");
-	printf("C: %.2f\n", C);
-	printf("D: %.2f\n", D);
+	printf("C: %f\n", C);
+	printf("D: %f\n", D);
 
 	return 0;
 }
