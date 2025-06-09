@@ -12,6 +12,6 @@ do {
 } while (x == 0);
 ```
 
-**(e)** 2. 2. The program will produce the output x = 10 y = 10.
+**(e)** 2. The program will produce the output x = 10 y = 10.
 
-**(f)** 3. 3. for(;;) implements an infinite loop.
+**(f)** 3. for(;;) implements an infinite loop.
