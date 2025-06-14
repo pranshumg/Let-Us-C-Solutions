@@ -1,4 +1,4 @@
-**(a)**
+**(a)** Corrected Code:
 ```c
 #include <stdio.h>
 
@@ -11,7 +11,7 @@ int main() {
 }
 ```
 
-**(b)**
+**(b)** Corrected Code:
 ```c
 #include <stdio.h>
 
@@ -24,7 +24,7 @@ int main() {
 }
 ```
 
-**(c)**
+**(c)** Corrected Code:
 ```c
 #include <stdio.h>
 
@@ -37,7 +37,7 @@ int main() {
 }
 ```
 
-**(d)**
+**(d)** Corrected Code:
 ```c
 #include <stdio.h>
 
@@ -52,7 +52,7 @@ int main() {
 }
 ```
 
-**(e)**
+**(e)** Corrected Code:
 ```c
 #include <stdio.h>
 
@@ -64,8 +64,8 @@ int main() {
 }
 ```
 
-**(f)**
-```c
+**(f)** Corrected Code:
+```c 
 #include <stdio.h>
 
 int main() {
@@ -77,7 +77,7 @@ int main() {
 }
 ```
 
-**(g)**
+**(g)** Corrected Code:
 ```c
 #include <stdio.h>
 
@@ -89,7 +89,7 @@ int main() {
 }
 ```
 
-**(h)**
+**(h)** Corrected Code:
 ```c
 #include <stdio.h>
 
