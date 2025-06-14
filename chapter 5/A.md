@@ -1,8 +1,14 @@
 **(a)** Infinite loop (no output, program hangs).
 
-**(b)** ```2 3 3```
+**(b)** Output:  
+```
+2 3 3
+```
 
-**(c)** ```3 3 1```
+**(c)** Output:
+```
+3 3 1
+```
 
 **(d)** Infinite loop (prints "malayalam is a palindrome\n" repeatedly).
 
