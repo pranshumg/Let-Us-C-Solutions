@@ -1,4 +1,4 @@
-### **(a)**  
+**(a)** Corrected Code:
 ```c
 #include <stdio.h>
 
@@ -21,7 +21,7 @@ int addmult(int x, int y) {
 }
 ```
 
-### **(b)**
+**(b)** Corrected Code:
 ```c
 #include <stdio.h>
 
@@ -37,7 +37,7 @@ void message() {
 }
 ```
 
-### **(c)**
+**(c)** Corrected Code:
 ```c
 #include <stdio.h>
 
@@ -56,7 +56,7 @@ void printit(float a, char ch) {
 }
 ```
 
-### **(d)**
+**(d)** Corrected Code:
 ```c
 #include <stdio.h>
 
