@@ -1,4 +1,4 @@
-### **(a)** 
+**(a)** Corrected Code: 
 ```c
 #include <stdio.h>
 int main() {
@@ -15,7 +15,7 @@ int main() {
 }
 ```
 
-### **(b)** 
+**(b)** Corrected Code: 
 ```c
 #include <stdio.h>
 int main() {
@@ -34,13 +34,13 @@ int main() {
 }
 ```
 
-### **(c)** 
+**(c)** 
 ```
 error: switch quantity not an integer
 ```
 To fix this, you would need to use an int for the switch expression and integer constants for the case labels, or use if-else statements for floating-point comparisons.
 
-### **(d)** 
+**(d)** 
 ```
 error: duplicate case value
 ```
