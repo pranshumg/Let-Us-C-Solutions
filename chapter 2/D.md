@@ -1,11 +1,17 @@
 **(a)** Output:  
-```0 2 0.000000 2.000000```
+```
+0 2 0.000000 2.000000
+```
 
 **(b)** Output:  
-```a = 2 b = -2 c = 2 d = -2```
+```
+a = 2 b = -2 c = 2 d = -2
+```
 
 **(c)** Output:  
-```error: invalid operands to binary % (have ‘float’ and ‘float’)```
+```
+error: invalid operands to binary % (have ‘float’ and ‘float’)
+```
 
 **(d)** Output:  
 ```
