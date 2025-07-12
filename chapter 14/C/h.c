@@ -20,7 +20,7 @@ void shift_matrix_rows(int r, int c, int a[][c]) {
 void print_matrix(int r, int c, int a[][c]) {
     for (int i = 0; i < r; i++) {
         for (int j = 0; j < c; j++) {
-            printf("%4d", a[i][j]);
+            printf("%d", a[i][j]);
         }
         printf("\n");
     }
