@@ -1,5 +1,7 @@
 **(a)** Corrected:
 ```c
+#include <stdio.h>
+
 int main() {
     int twod[][4] = { 2, 4, 6, 8 };
     printf("%d\n", twod[0][0]); 
@@ -9,6 +11,8 @@ int main() {
 
 **(b)** Corrected:
 ```c
+#include <stdio.h>
+
 int main() {
     int three[3][3] = {
         {2, 4, 3}, {6, 8, 2}, {2, 3, 1}
