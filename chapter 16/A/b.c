@@ -10,7 +10,7 @@ bool is_vowel(char c) {
 int main() {
     char s[81], result[81];
     printf("Enter a sentence: ");
-    scanf("%[^\n]s", s);
+    fgets(s, 81, stdin);
     int j = 0;
     for (int i = 0; s[i] != '\0'; i++) {
         if (!is_vowel(s[i])) {
