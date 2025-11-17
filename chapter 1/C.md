@@ -20,5 +20,4 @@
 
 **(k)** True
 
-**(l)** False  
-
+**(l)** False 
