@@ -1,20 +1,17 @@
 #include <stdio.h>
 
 int main() {
-	float C, D;
+	double C, D;
 	printf("C: ");
-	scanf("%f", &C);
+	scanf("%lf", &C);
 	printf("D: ");
-	scanf("%f", &D);
-
-	float E;
+	scanf("%lf", &D);
+	double E;
 	E = D;
 	D = C;
 	C = E;
-
 	printf("After interchanging,\n");
-	printf("C: %f\n", C);
-	printf("D: %f\n", D);
-
+	printf("C: %lf\n", C);
+	printf("D: %lf\n", D);
 	return 0;
 }
