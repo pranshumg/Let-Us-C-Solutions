@@ -1,11 +1,11 @@
-**(a)** True
+**(a)** true
 
-**(b)** False
+**(b)** false
 
-**(c)** True
+**(c)** true
 
-**(d)** True
+**(d)** true
 
-**(e)** False
+**(e)** false
 
-**(f)** True
+**(f)** true
