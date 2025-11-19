@@ -8,7 +8,6 @@ int main() {
 	scanf("%d", &age2);
 	printf("enter ajay's age: ");
 	scanf("%d", &age3);
-
 	if (age1 < age2 && age1 < age3) {
 		printf("ram is youngest");
 	} else if (age2 < age1 && age2 < age3) {
@@ -16,6 +15,5 @@ int main() {
 	} else {
 		printf("ajay is youngest");
 	}
-	
 	return 0;
 }
