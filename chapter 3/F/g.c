@@ -14,10 +14,8 @@ int main() {
 	scanf("%d", &x);
 	printf("enter y co-ordinate of point: ");
 	scanf("%d", &y);
-
 	float d = sqrt(pow(x - h, 2) + pow(y - k, 2));
 	printf("distance between the point and the center of circle: %.2f\n", d);
-
 	if (d < r) {
 		printf("the point lies inside the circle.\n");
 	} else if (d == r) {
@@ -25,6 +23,5 @@ int main() {
 	} else {
 		printf("the point lies outside the circle.\n");
 	}
-
 	return 0;
 }
