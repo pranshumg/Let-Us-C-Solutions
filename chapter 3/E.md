@@ -1,9 +1,9 @@
-**(a)** ✅ Valid
+**(a)** ✅ valid
 
-**(b)** ✅ Valid
+**(b)** ✅ valid
 
-**(c)** ✅ Valid
+**(c)** ✅ valid
 
-**(d)** ✅ Valid
+**(d)** ✅ valid
 
-**(e)** ✅ Valid
+**(e)** ✅ valid
