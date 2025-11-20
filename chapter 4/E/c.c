@@ -8,8 +8,6 @@ int main() {
 	scanf("%f", &b);
 	printf("enter 3rd number: ");
 	scanf("%f", &c);
-
 	(a > b ? (a > c ? printf("%.2f is greatest\n", a) : printf("%.2f is greatest\n", c)) : (b > c ? printf("%.2f is greatest\n", b) : printf("%.2f is greatest\n", c)));
-
 	return 0;
 }
