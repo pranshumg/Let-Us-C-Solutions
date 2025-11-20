@@ -6,9 +6,7 @@ int main() {
 	scanf("%f", &w);
 	printf("enter height in meters: ");
 	scanf("%f", &h);
-
 	float bmi = (w / (h * h));
-
 	if (bmi < 15) {
 		printf("starvation\n");
 	} else if (bmi >= 15.1 && bmi <= 17.5) {
@@ -24,6 +22,5 @@ int main() {
 	} else if (bmi >= 40) {
 		printf("morbidly obese\n");
 	}
-
 	return 0;
 }
