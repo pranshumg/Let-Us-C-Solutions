@@ -3,7 +3,6 @@
 
 int main() {
 	int a = 1, m, ld;
-
 	while (a <= 500) {
 		int sum = 0, count = 0;
 		m = a;
@@ -11,7 +10,6 @@ int main() {
 			m /= 10;
 			count++;
 		}
-
 		m = a;
 		while (m != 0) {
 			ld = m % 10;
@@ -23,6 +21,5 @@ int main() {
 		}
 		a++;
 	}
-
 	return 0;
 }
