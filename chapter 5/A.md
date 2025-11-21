@@ -1,4 +1,4 @@
-**(a)** Infinite loop (no output, program hangs).
+**(a)** Infinite loop (no output, program hangs)
 
 **(b)** Output:  
 ```
@@ -10,8 +10,8 @@
 3 3 1
 ```
 
-**(d)** Infinite loop (prints "malayalam is a palindrome\n" repeatedly).
+**(d)** Infinite loop (prints "malayalam is a palindrome\n" repeatedly)
 
-**(e)** Infinite loop (prints "10\n" repeatedly).
+**(e)** Infinite loop (prints "10\n" repeatedly)
 
-**(f)** No output (the loop condition x == 1.1 fails due to floating-point precision issues).
+**(f)** No output (the loop condition x == 1.1 fails due to floating-point precision issues)
