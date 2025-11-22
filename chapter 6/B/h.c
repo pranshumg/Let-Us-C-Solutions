@@ -12,6 +12,5 @@ int main() {
 			printf("%d:00 PM\n", h - 12);
 		}
 	}
-
 	return 0;
 }
