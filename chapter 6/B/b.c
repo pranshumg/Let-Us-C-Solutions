@@ -7,6 +7,5 @@ int main() {
 			printf("%f\t%d\t%f\n", i, y, x);
 		}
 	}
-
 	return 0;
 }
