@@ -12,11 +12,8 @@ int main() {
 		scanf("%f", &r);
 		printf("enter number of times interest is compounded per year: ");
 		scanf("%f", &q);
-
 		a = p * pow((1 + r / q), n * q);
-
 		printf("amount after interest: %.2f\n", a);
 	}
-
 	return 0;
 }
