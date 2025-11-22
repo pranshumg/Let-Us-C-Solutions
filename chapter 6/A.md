@@ -8,7 +8,7 @@
 ```c
 int y, x = 0;
 do {
-    y = x;
+  y = x;
 } while (x == 0);
 ```
 
