@@ -3,13 +3,12 @@
 #include <stdio.h>
 
 int main() {
-    float p = 23.24;
-    float *q, **r;
-    q = &p;
-    r = &q;
-    printf("%f %f\n", *q, **r);
-
-    return 0;
+  float p = 23.24;
+  float *q, **r;
+  q = &p;
+  r = &q;
+  printf("%f %f\n", *q, **r);
+  return 0;
 }
 ```
 
@@ -18,12 +17,11 @@ int main() {
 #include <stdio.h>
 
 int main() {
-    char ch = 'A';
-    int k = 35;
-    float a = 3.14;
-    printf("%p %p %p\n", (void *)&ch, (void *)&k, (void *)&a);
-
-    return 0;
+  char ch = 'A';
+  int k = 35;
+  float a = 3.14;
+  printf("%p %p %p\n", (void *)&ch, (void *)&k, (void *)&a);
+  return 0;
 }
 ```
 
@@ -34,14 +32,13 @@ int main() {
 int function(int *);
 
 int main() {
-    int i = 35, z; 
-    z = function(&i);
-    printf("%d\n", z);
-
-    return 0;
+  int i = 35, z; 
+  z = function(&i);
+  printf("%d\n", z);
+  return 0;
 }
 
 int function(int *m) {
-    return (*m + 2);
+  return (*m + 2);
 }
 ```
