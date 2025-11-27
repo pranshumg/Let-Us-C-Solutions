@@ -1,13 +1,13 @@
-**(a)** False
+**(a)** false
 
-**(b)** False
+**(b)** false
 
-**(c)** False
+**(c)** false
 
-**(d)** False
+**(d)** false
 
-**(e)** False
+**(e)** false
 
-**(f)** False
+**(f)** false
 
-**(g)** True
+**(g)** true
