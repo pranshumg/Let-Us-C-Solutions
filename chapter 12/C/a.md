@@ -3,4 +3,4 @@ For example:
 ```
 gcc -E program.c -o output.i
 ```
-Then, check output.i to see how the macro was expanded.
+Then, check output.i to see how the macro was expanded
