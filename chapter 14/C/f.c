@@ -2,13 +2,13 @@
 
 int main() {
     int a1[6][6], a2[6][6], sum[6][6];
-    printf("Enter elements of 6x6 matrix 1: \n");
+    printf("enter elements of 6x6 matrix 1: \n");
     for (int i = 0; i < 6; i++) {
         for (int j = 0; j < 6; j++) {
             scanf("%d", &a1[i][j]);
         }
     }
-    printf("\nEnter elements of 6x6 matrix 2: \n");
+    printf("\nenter elements of 6x6 matrix 2: \n");
     for (int i = 0; i < 6; i++) {
         for (int j = 0; j < 6; j++) {
             scanf("%d", &a2[i][j]);
