@@ -33,10 +33,10 @@ int main() {
         {10, 20, 30, 40, 50},
         {7,  8,  9,  10, 11}
     };
-    printf("Original Matrix:\n");
+    printf("original Matrix:\n");
     print_matrix(4, 5, a);
     shift_matrix_rows(4, 5, a);
-    printf("\nMatrix after shifting rows left by 2:\n");
+    printf("\nmatrix after shifting rows left by 2:\n");
     print_matrix(4, 5, a);
     return 0;
 }
