@@ -31,9 +31,9 @@ void multiplication(int r1, int c1, int r2, int c2, int a1[r1][c1], int a2[r2][c
 
 int main() {
 	int a1[10][10], a2[10][10], r1, c1, r2, c2;
-	printf("Enter no. of rows and columns for matrix 1: \n");
+	printf("enter no. of rows and columns for matrix 1: \n");
 	scanf("%d %d", &r1, &c1);
-	printf("Enter no. of rows and columns for matrix 2: \n");
+	printf("enter no. of rows and columns for matrix 2: \n");
 	scanf("%d %d", &r2, &c2);
 	if (c1 == r2) {
 		input(r1, c1, a1);
