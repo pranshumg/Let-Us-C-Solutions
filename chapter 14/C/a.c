@@ -15,9 +15,9 @@ int main() {
             {16, 17, 18}
         }
     };
-    // First element
+    // first element
     printf("%d\n", a[0][0][0]);
-    // Last element
+    // last element
     printf("%d\n", a[2][1][2]);
     return 0;
 }
