@@ -4,7 +4,7 @@
 
 int main() {
     char c[17];
-    printf("Enter 16-digit Credit Card number: ");
+    printf("enter 16-digit Credit Card number: ");
     scanf("%s", c);
     if (strlen(c) != 16) {
         printf("Invalid input length.\n");
