@@ -2,7 +2,7 @@
 
 int main() {
     char c[11];
-    printf("Enter 10-digit ISBN (last digit can be X): ");
+    printf("enter 10-digit ISBN (last digit can be X): ");
     scanf("%s", c);
     int sum = 0;
     for (int i = 0; i < 10; i++) {
