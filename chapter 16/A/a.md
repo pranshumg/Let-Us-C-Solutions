@@ -12,4 +12,3 @@
 **Total string bytes:** 17 + 15 + 16 + 9 = 57 bytes  
 **Pointers (on 64-bit):** 4 × 8 = 32 bytes  
 **Total = 57 + 32 = 89 bytes**
-
