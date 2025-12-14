@@ -8,16 +8,16 @@ bool is_vowel(char c) {
 }
 
 int main() {
-    char s[81], result[81];
+    char s[81], res[81];
     printf("Enter a sentence: ");
     fgets(s, 81, stdin);
     int j = 0;
     for (int i = 0; s[i] != '\0'; i++) {
         if (!is_vowel(s[i])) {
-            result[j++] = s[i];
+            res[j++] = s[i];
         }
     }
-    result[j] = '\0';
-    printf("Sentence without vowels: %s\n", result);
+    res[j] = '\0';
+    printf("Sentence without vowels: %s\n", res);
     return 0;
 }
