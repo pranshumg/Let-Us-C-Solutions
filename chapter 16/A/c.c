@@ -17,7 +17,7 @@ int main() {
         } else {
             word[k++] = s[i];
         }
-        i++;
+        ++i;
     }   
     return 0;
 }
