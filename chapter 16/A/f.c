@@ -37,7 +37,7 @@ void print_word(char c) {
 
 int main() {
     char s[10];
-    printf("Enter number (<= 9 digits): ");
+    printf("enter number (<= 9 digits): ");
     fgets(s, 10, stdin);
     for (int i = 0; s[i] != '\0'; i++) {
         print_word(s[i]);
