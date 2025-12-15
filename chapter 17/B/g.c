@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 struct Date {
-    int day, month, year;
+    int day; 
+    int month; 
+    int year;
 };
 
 int compare_dates(struct Date d1, struct Date d2) {
