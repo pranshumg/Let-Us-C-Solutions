@@ -9,7 +9,7 @@ struct student {
 };
 
 void print_students_by_year(struct student s[], int n, int y) {
-    printf("Students who joined in %d:\n", y);
+    printf("students who joined in %d:\n", y);
     for (int i = 0; i < n; i++) {
         if (s[i].year == y) {
             printf("%s\n", s[i].name);
@@ -24,5 +24,5 @@ void print_data_by_roll_no(struct student s[], int n, int roll) {
             return;
         }
     }
-    printf("Student not found.\n");
+    printf("student not found.\n");
 }
