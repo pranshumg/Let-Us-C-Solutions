@@ -5,7 +5,9 @@
 struct employee {
     int code;
     char name[30];
-    int day, month, year;
+    int day;
+    int month;
+    int year;
 };
 
 void show_employees(struct employee e[], int n, int d, int m, int y) {
