@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdbool.h>
 
 struct library {
     int accession_no;
@@ -11,7 +12,7 @@ struct library {
 void working_of_library() {
     struct library books[100];
     int cnt = 0, c;
-    while (1) {
+    while (true) {
         printf("\nLibrary Menu:\n");
         printf("1. Add book information\n");
         printf("2. Display book information\n");
