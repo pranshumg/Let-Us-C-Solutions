@@ -21,7 +21,7 @@ void transaction(struct customer c[], int n, int acc_no, int amount, int code) {
                 c[i].balance += amount;
             } else {
                 if (c[i].balance - amount < 1000) {
-                    printf("The balance is insufficient for the specified withdrawal.\n");
+                    printf("the balance is insufficient for the specified withdrawal.\n");
                     return;
                 }
                 c[i].balance -= amount;
@@ -29,5 +29,5 @@ void transaction(struct customer c[], int n, int acc_no, int amount, int code) {
             return;
         }
     }
-    printf("Account not found.\n");
+    printf("account not found.\n");
 }
