@@ -11,6 +11,3 @@
 **(d)** 4. All the above
 
 **(e)** Yes, because binary and text mode have different data interpretations (like newline \n to \r\n on Windows), so consistency is necessary.
-
-
-
