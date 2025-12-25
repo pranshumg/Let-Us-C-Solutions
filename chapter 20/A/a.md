@@ -3,7 +3,7 @@
 ./a.out < input.txt > output.txt
 ```
 
-2. Use redirection and keyboard input:
+2. Use redirection and keyboard input: 
 ```
 ./a.out > newfile.txt
 ```
