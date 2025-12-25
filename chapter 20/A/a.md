@@ -8,7 +8,7 @@
 ./a.out > newfile.txt
 ```
 
-3. Again use redirection:
+3. Again use redirection: 
 ```
 ./a.out < existingfile.txt
 ```
